@@ -15,7 +15,7 @@ const Tech = () => {
                 <meta name="image" content="https://i.im.ge/2024/05/12/ZnvyP0.Tech.png"/>
                 <meta property="og:image" content="https://i.im.ge/2024/05/12/ZnvyP0.Tech.png" />
                 <meta itemprop="image" content="https://i.im.ge/2024/05/12/ZnvyP0.Tech.png"/>
-                <meta property="og:url" content="https://sample-website-qbc7.vercel.app/tech" />
+                <meta property="og:url" content="https://sample-website-seven.vercel.app/tech" />
                 <meta property="og:type" content="website"/>
         </Helmet>
     <div className='bg-gray-900'>
