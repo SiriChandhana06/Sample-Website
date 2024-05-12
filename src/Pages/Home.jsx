@@ -1,26 +1,28 @@
 import React from 'react';
 import Nav from '../Components/Nav';
 import illustrate from "../Assets/illustration 1.png";
+import { Helmet } from 'react-helmet';
 // import { Helmet } from 'react-helmet';
 
 const Home = () => {
   return (
     <div>
-      {/* <Helmet>
-        <title>Home</title>
-        <meta name="description" content="This is the Home page of my website." />
-        <meta property="og:title" content="Home Page" />
-        <meta property="og:description" content="This is the Home page of my website." />
-        <meta name="image" content="https://i.im.ge/2024/05/10/ZpiPoq.Icon.png" />
-        <meta property="og:image" content="https://i.im.ge/2024/05/10/ZpiPoq.Icon.png" />
-        <meta itemprop="image" content="https://i.im.ge/2024/05/10/ZpiPoq.Icon.png" />
-        <meta property="og:url" content="https://sample-website-vert.vercel.app/" />
-        <meta property="og:type" content="website" />
-        <meta name="twitter:card" content="summary_large_image" />
-                <meta name="twitter:title" content="Home" />
-                <meta name="twitter:description" content="This is the home page of my website." />
-                <meta name="twitter:image" content="https://i.im.ge/2024/05/10/ZpiPoq.Icon.png" />
-      </Helmet> */}
+      <Helmet>
+      <title>Home</title>
+  <meta name="title" content="Home" />
+  <meta name="description" content="Home page in Website" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://sample-website-seven.vercel.app" />
+  <meta property="og:title" content="Home" />
+  <meta property="og:description" content="Home page in Website" />
+  <meta property="og:image"
+    content="https://github.com/SiriChandhana06/Sample-Website/blob/master/public/Icon%20copy.png?raw=true" />
+  <meta property="twitter:card" content="summary_large_image" />
+  <meta property="twitter:url" content="https://sample-website-seven.vercel.app" />
+  <meta property="twitter:title" content="Home" />
+  <meta property="twitter:description" content="Home page in Website" />
+  <meta property="twitter:image" content="https://github.com/SiriChandhana06/Sample-Website/blob/master/public/Icon%20copy.png?raw=true" />
+      </Helmet>
       <div className='bg-gray-900 h-screen'>
         <Nav />
         <div className='grid grid-cols-2 px-20'>
