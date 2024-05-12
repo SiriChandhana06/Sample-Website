@@ -1,19 +1,12 @@
 import React from 'react';
 import Nav from '../Components/Nav';
 import illustrate from "../Assets/illustration 1.png";
-import Head from '../Components/Head';
-
+import { Helmet } from 'react-helmet';
 
 const Home = () => {
   return (
     <div>
-       <Head
-        title="Home"
-        description="This is the Home page of my website."
-        image="https://i.im.ge/2024/05/10/ZpiPoq.Icon.png"
-        url="https://sample-website-seven.vercel.app/"
-      />
-        {/* <head>
+      <Helmet>
         <title>Home</title>
         <meta name="description" content="This is the Home page of my website." />
         <meta property="og:title" content="Home Page" />
@@ -23,7 +16,7 @@ const Home = () => {
         <meta itemprop="image" content="https://i.im.ge/2024/05/10/ZpiPoq.Icon.png" />
         <meta property="og:url" content="https://sample-website-vert.vercel.app/" />
         <meta property="og:type" content="website" />
-        </head> */}
+      </Helmet>
       <div className='bg-gray-900 h-screen'>
         <Nav />
         <div className='grid grid-cols-2 px-20'>
