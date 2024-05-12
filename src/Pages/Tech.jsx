@@ -2,12 +2,10 @@ import React from 'react';
 import tch from '../Assets/web123.jpg';
 import tch1 from '../Assets/tech.png';
 import Nav from '../Components/Nav';
-import { Helmet } from 'react-helmet';
 
 const Tech = () => {
   return (
     <div>
-       <Helmet>
         <head>
                 <title>Techinal</title>
                 <meta name="description" content="This is the Technical page of my website." />
@@ -19,7 +17,6 @@ const Tech = () => {
                 <meta property="og:url" content="https://sample-website-seven.vercel.app/tech" />
                 <meta property="og:type" content="website"/>
                 </head>
-        </Helmet>
     <div className='bg-gray-900'>
       <Nav/>
       <div className='grid grid-cols-2 px-10 py-20'> 

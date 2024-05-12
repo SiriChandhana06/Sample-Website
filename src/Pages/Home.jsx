@@ -6,7 +6,6 @@ import illustrate from "../Assets/illustration 1.png";
 const Home = () => {
   return (
     <div>
-      <Helmet>
         <head>
         <title>Home</title>
         <meta name="description" content="This is the Home page of my website." />
@@ -18,7 +17,6 @@ const Home = () => {
         <meta property="og:url" content="https://sample-website-vert.vercel.app/" />
         <meta property="og:type" content="website" />
         </head>
-      </Helmet>
       <div className='bg-gray-900 h-screen'>
         <Nav />
         <div className='grid grid-cols-2 px-20'>
