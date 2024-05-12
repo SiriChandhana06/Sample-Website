@@ -7,7 +7,7 @@ const Web2 = () => {
   return (
     <div>
       <Helmet>
-                <title>Techinal</title>
+                <title>Web 2</title>
                 <meta name="description" content="This is the Web 2.0 page of my website." />
                 <meta property="og:title" content="WEB 2.0 Page" />
                 <meta property="og:description" content="This is the Web 2.0 page of my website." />

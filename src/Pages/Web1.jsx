@@ -7,7 +7,7 @@ const Web1 = () => {
   return (
     <div>
       <Helmet>
-                <title>Techinal</title>
+                <title>Web 1</title>
                 <meta name="description" content="This is the Web 1.0 page of my website." />
                 <meta property="og:title" content="Web 1.0 Page" />
                 <meta property="og:description" content="This is the Web 1.0 page of my website." />

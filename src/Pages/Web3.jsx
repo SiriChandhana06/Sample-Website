@@ -6,7 +6,7 @@ const Web3 = () => {
   return (
     <div>
         <Helmet>
-                <title>Techinal</title>
+                <title>Web 3</title>
                 <meta name="description" content="This is the Web 3.0 page of my website." />
                 <meta property="og:title" content="WEB 3.0 Page" />
                 <meta property="og:description" content="This is the Web 3.0 page of my website." />
