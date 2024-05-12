@@ -2,6 +2,7 @@ import React from 'react';
 import tch from '../Assets/web123.jpg';
 import tch1 from '../Assets/tech.png';
 import Nav from '../Components/Nav';
+import { Helmet } from 'react-helmet';
 
 const Tech = () => {
   return (
