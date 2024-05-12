@@ -8,7 +8,7 @@ const Tech = () => {
   return (
     <div>
        <Helmet>
-                <title>TECHNICAL</title>
+                <title>Techinal</title>
                 <meta name="description" content="This is the Technical page of my website." />
                 <meta property="og:title" content="Technical Page" />
                 <meta property="og:description" content="This is the Technical page of my website." />
