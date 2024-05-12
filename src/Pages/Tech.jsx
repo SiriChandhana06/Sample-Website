@@ -2,11 +2,18 @@ import React from 'react';
 import tch from '../Assets/web123.jpg';
 import tch1 from '../Assets/tech.png';
 import Nav from '../Components/Nav';
+import Head from '../Components/Head';
 
 const Tech = () => {
   return (
     <div>
-        <head>
+       <Head
+        title="Technical"
+        description="This is the Techinal page of my website."
+        image="https://i.im.ge/2024/05/12/ZnvyP0.Tech.png"
+        url="https://sample-website-seven.vercel.app/tech"
+      />
+        {/* <head>
                 <title>Techinal</title>
                 <meta name="description" content="This is the Technical page of my website." />
                 <meta property="og:title" content="Technical Page" />
@@ -16,7 +23,7 @@ const Tech = () => {
                 <meta itemprop="image" content="https://i.im.ge/2024/05/12/ZnvyP0.Tech.png"/>
                 <meta property="og:url" content="https://sample-website-seven.vercel.app/tech" />
                 <meta property="og:type" content="website"/>
-                </head>
+                </head> */}
     <div className='bg-gray-900'>
       <Nav/>
       <div className='grid grid-cols-2 px-10 py-20'> 
