@@ -5,6 +5,16 @@ import Nav from '../Components/Nav';
 
 const Tech = () => {
   return (
+    <div>
+       <Helmet>
+                <title>TECHNICAL</title>
+                <meta name="description" content="This is the about page of my website." />
+                <meta property="og:title" content="Technical Page" />
+                <meta property="og:description" content="This is the about page of my website." />
+                <meta property="og:image" content="https://i.im.ge/2024/05/10/ZpiPoq.Icon.png" />
+                <meta property="og:url" content="https://sample-website-qbc7.vercel.app/tech" />
+                <meta property="og:type" content="website"/>
+        </Helmet>
     <div className='bg-gray-900'>
       <Nav/>
       <div className='grid grid-cols-2 px-10 py-20'> 
@@ -30,6 +40,7 @@ const Tech = () => {
       <img src={tch} alt='technical'/>
       </div>
       </div>
+    </div>
     </div>
   )
 }
