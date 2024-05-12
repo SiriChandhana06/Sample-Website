@@ -1,12 +1,12 @@
 import React from 'react';
 import w3 from '../Assets/web3.webp';
 import Nav from '../Components/Nav';
-import { Helmet } from 'react-helmet';
+// import { Helmet } from 'react-helmet';
 
 const Web3 = () => {
   return (
     <div>
-        <Helmet>
+        {/* <Helmet>
                 <title>Web 3</title>
                 <meta name="description" content="This is the Web 3.0 page of my website." />
                 <meta property="og:title" content="WEB 3.0 Page" />
@@ -16,7 +16,7 @@ const Web3 = () => {
                 <meta itemprop="image" content="https://i.im.ge/2024/05/12/ZnJU4J.Web3.png"/>
                 <meta property="og:url" content="https://sample-website-seven.vercel.app/web3" />
                 <meta property="og:type" content="website"/>
-        </Helmet>
+        </Helmet> */}
     <div className='bg-gray-900 h-screen '>
       <Nav/>
       <div className='grid grid-cols-2 px-10 py-20'> 

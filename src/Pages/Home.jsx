@@ -1,12 +1,12 @@
 import React from 'react';
 import Nav from '../Components/Nav';
 import illustrate from "../Assets/illustration 1.png";
-import { Helmet } from 'react-helmet';
+// import { Helmet } from 'react-helmet';
 
 const Home = () => {
   return (
     <div>
-      <Helmet>
+      {/* <Helmet>
         <title>Home</title>
         <meta name="description" content="This is the Home page of my website." />
         <meta property="og:title" content="Home Page" />
@@ -20,7 +20,7 @@ const Home = () => {
                 <meta name="twitter:title" content="Home" />
                 <meta name="twitter:description" content="This is the home page of my website." />
                 <meta name="twitter:image" content="https://i.im.ge/2024/05/10/ZpiPoq.Icon.png" />
-      </Helmet>
+      </Helmet> */}
       <div className='bg-gray-900 h-screen'>
         <Nav />
         <div className='grid grid-cols-2 px-20'>
