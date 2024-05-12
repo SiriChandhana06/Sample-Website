@@ -7,6 +7,7 @@ const Home = () => {
   return (
     <div>
       <Helmet>
+        <head>
         <title>Home</title>
         <meta name="description" content="This is the Home page of my website." />
         <meta property="og:title" content="Home Page" />
@@ -16,6 +17,7 @@ const Home = () => {
         <meta itemprop="image" content="https://i.im.ge/2024/05/10/ZpiPoq.Icon.png" />
         <meta property="og:url" content="https://sample-website-vert.vercel.app/" />
         <meta property="og:type" content="website" />
+        </head>
       </Helmet>
       <div className='bg-gray-900 h-screen'>
         <Nav />

@@ -8,6 +8,7 @@ const Tech = () => {
   return (
     <div>
        <Helmet>
+        <head>
                 <title>Techinal</title>
                 <meta name="description" content="This is the Technical page of my website." />
                 <meta property="og:title" content="Technical Page" />
@@ -17,6 +18,7 @@ const Tech = () => {
                 <meta itemprop="image" content="https://i.im.ge/2024/05/12/ZnvyP0.Tech.png"/>
                 <meta property="og:url" content="https://sample-website-seven.vercel.app/tech" />
                 <meta property="og:type" content="website"/>
+                </head>
         </Helmet>
     <div className='bg-gray-900'>
       <Nav/>
