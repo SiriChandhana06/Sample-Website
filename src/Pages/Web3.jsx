@@ -1,6 +1,7 @@
 import React from 'react';
 import w3 from '../Assets/web3.webp';
 import Nav from '../Components/Nav';
+import { Helmet } from 'react-helmet';
 
 const Web3 = () => {
   return (
