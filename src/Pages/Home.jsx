@@ -16,6 +16,10 @@ const Home = () => {
         <meta itemprop="image" content="https://i.im.ge/2024/05/10/ZpiPoq.Icon.png" />
         <meta property="og:url" content="https://sample-website-vert.vercel.app/" />
         <meta property="og:type" content="website" />
+        <meta name="twitter:card" content="summary_large_image" />
+                <meta name="twitter:title" content="Home" />
+                <meta name="twitter:description" content="This is the home page of my website." />
+                <meta name="twitter:image" content="https://i.im.ge/2024/05/10/ZpiPoq.Icon.png" />
       </Helmet>
       <div className='bg-gray-900 h-screen'>
         <Nav />
