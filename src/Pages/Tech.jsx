@@ -12,7 +12,9 @@ const Tech = () => {
                 <meta name="description" content="This is the about page of my website." />
                 <meta property="og:title" content="Technical Page" />
                 <meta property="og:description" content="This is the about page of my website." />
+                <meta name="image" content="https://i.im.ge/2024/05/10/ZpiPoq.Icon.png"/>
                 <meta property="og:image" content="https://i.im.ge/2024/05/10/ZpiPoq.Icon.png" />
+                <meta itemprop="image" content="https://i.im.ge/2024/05/10/ZpiPoq.Icon.png"/>
                 <meta property="og:url" content="https://sample-website-qbc7.vercel.app/tech" />
                 <meta property="og:type" content="website"/>
         </Helmet>
