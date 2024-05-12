@@ -2,7 +2,6 @@ import React from 'react';
 import { Helmet } from 'react-helmet';
 import w2 from '../Assets/web2.webp';
 import Nav from '../Components/Nav';
-import { Helmet } from 'react-helmet';
 
 const Web2 = () => {
   return (
