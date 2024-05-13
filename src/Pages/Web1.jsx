@@ -1,33 +1,10 @@
 import React from 'react';
-// import { Helmet } from 'react-helmet';
 import w1 from '../Assets/web1.jpg';
 import Nav from '../Components/Nav';
 
 const Web1 = () => {
   return (
     <div>
-      {/* <Helmet>
-        <title>Web 1</title>
-        <meta name="description" content="This is the Web 1.0 page of my website." />
-        <meta property="og:title" content="Web 1.0 Page" />
-        <meta property="og:description" content="This is the Web 1.0 page of my website." />
-        <meta name="image" content="https://i.im.ge/2024/05/12/ZnvJ3h.Web1.png"/>
-        <meta property="og:image" content="https://i.im.ge/2024/05/12/ZnvJ3h.Web1.png" />
-        <meta itemprop="image" content="https://i.im.ge/2024/05/12/ZnvJ3h.Web1.png"/>
-        <meta property="og:url" content="https://sample-website-seven.vercel.app/web1" />
-        <meta property="og:type" content="website"/>
-      </Helmet> */}
-      {/* <Helmet>
-                <title>Web 1</title>
-                <meta name="description" content="This is the Web 1.0 page of my website." />
-                <meta property="og:title" content="Web 1.0 Page" />
-                <meta property="og:description" content="This is the Web 1.0 page of my website." />
-                <meta name="image" content="https://i.im.ge/2024/05/12/ZnvJ3h.Web1.png"/>
-                <meta property="og:image" content="https://i.im.ge/2024/05/12/ZnvJ3h.Web1.png" />
-                <meta itemprop="image" content="https://i.im.ge/2024/05/12/ZnvJ3h.Web1.png"/>
-                <meta property="og:url" content="https://sample-website-seven.vercel.app/web1" />
-                <meta property="og:type" content="website"/>
-        </Helmet> */}
     <div className='bg-gray-900 h-screen '>
       <Nav/>
       <div className='grid grid-cols-2 px-10 py-20'> 

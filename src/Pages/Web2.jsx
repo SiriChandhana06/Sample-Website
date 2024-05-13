@@ -1,22 +1,22 @@
 import React from 'react';
-// import { Helmet } from 'react-helmet';
+import { Helmet } from 'react-helmet';
 import w2 from '../Assets/web2.webp';
 import Nav from '../Components/Nav';
 
 const Web2 = () => {
   return (
     <div>
-      {/* <Helmet>
+      <Helmet>
                 <title>Web 2</title>
                 <meta name="description" content="This is the Web 2.0 page of my website." />
                 <meta property="og:title" content="WEB 2.0 Page" />
                 <meta property="og:description" content="This is the Web 2.0 page of my website." />
-                <meta name="image" content="https://i.im.ge/2024/05/12/ZnJLYa.Web2.png"/>
-                <meta property="og:image" content="https://i.im.ge/2024/05/12/ZnJLYa.Web2.png" />
-                <meta itemprop="image" content="https://i.im.ge/2024/05/12/ZnJLYa.Web2.png"/>
+                <meta name="image" content="https://github.com/SiriChandhana06/Sample-Website/blob/master/src/images/Web2.png?raw=true"/>
+                <meta property="og:image" content="https://github.com/SiriChandhana06/Sample-Website/blob/master/src/images/Web2.png?raw=true" />
+                <meta itemprop="image" content="https://github.com/SiriChandhana06/Sample-Website/blob/master/src/images/Web2.png?raw=true"/>
                 <meta property="og:url" content="https://sample-website-seven.vercel.app/web2" />
                 <meta property="og:type" content="website"/>
-        </Helmet> */}
+        </Helmet>
     <div className='bg-gray-900 h-screen '>
       <Nav/>
       <div className='grid grid-cols-2 px-10 py-20'> 
