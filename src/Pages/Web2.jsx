@@ -25,12 +25,12 @@ const Web2 = () => {
         <meta property="og:title" content="Home" />
         <meta property="og:description" content="Home page in Website" />
         <meta property="og:image"
-          content="https://github.com/SiriChandhana06/Sample-Website/blob/master/src/images/Web2.png?raw=true" />
+          content="https://metatags.io/images/meta-tags.png" />
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content="https://sample-website-seven.vercel.app" />
         <meta property="twitter:title" content="Home" />
         <meta property="twitter:description" content="Home page in Website" />
-        <meta property="twitter:image" content="https://github.com/SiriChandhana06/Sample-Website/blob/master/src/images/Web2.png?raw=true" />
+        <meta property="twitter:image" content="https://metatags.io/images/meta-tags.png" />
 
         </Helmet>
     <div className='bg-gray-900 h-screen '>
