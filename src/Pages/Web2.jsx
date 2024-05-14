@@ -21,13 +21,13 @@ const Web2 = () => {
         <meta name="title" content="Web 2" />
         <meta name="description" content="Home page in Website" />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://sample-website-seven.vercel.app" />
+        <meta property="og:url" content="https://sample-website-hello.vercel.app/" />
         <meta property="og:title" content="Home" />
         <meta property="og:description" content="Home page in Website" />
         <meta property="og:image"
           content="https://metatags.io/images/meta-tags.png" />
         <meta property="twitter:card" content="summary_large_image" />
-        <meta property="twitter:url" content="https://sample-website-seven.vercel.app" />
+        <meta property="twitter:url" content="https://sample-website-hello.vercel.app/" />
         <meta property="twitter:title" content="Home" />
         <meta property="twitter:description" content="Home page in Website" />
         <meta property="twitter:image" content="https://metatags.io/images/meta-tags.png" />
