@@ -1,13 +1,20 @@
 import React from 'react';
 import Nav from '../Components/Nav';
 import illustrate from "../Assets/illustration 1.png";
-import { Helmet } from 'react-helmet';
+// import { Helmet } from 'react-helmet';
+import MetaTags from '../Components/MetaTags';
 
 
 const Home = () => {
     return (
         <div className='bg-gray-900 h-screen'>
-        <Helmet>
+
+<MetaTags
+      title="Sample App Home"
+      description="This is the home page of the Sample App."
+      image="https://github.com/SiriChandhana06/Sample-Website/blob/master/public/Icon%20copy.png?raw=true"
+    />
+        {/* <Helmet>
           <title>Home</title>
           <meta name="title" content="Home" />
           <meta name="description" content="Home page in Website" />
@@ -23,7 +30,7 @@ const Home = () => {
           <meta property="twitter:description" content="Home page in Website" />
           <meta property="twitter:image" content="https://metatags.io/images/meta-tags.png" />
 
-        </Helmet>
+        </Helmet> */}
         <div>
           <Nav />
           </div>

@@ -6,7 +6,14 @@ import Nav from '../Components/Nav';
 const Web2 = () => {
   return (
     <div className='bg-gray-900 h-screen '>
-      <Helmet>
+      <MetaTags
+      title="Web2"
+      description="This is the Web 2 page of the Sample App."
+      image="https://metatags.io/images/meta-tags.png"
+    />
+
+
+      {/* <Helmet> */}
         {/* <title>Web 2</title>
                 <meta name="description" content="This is the Web 2.0 page of my website." />
                 <meta property="og:title" content="WEB 2.0 Page" />
@@ -18,7 +25,7 @@ const Web2 = () => {
                 <meta property="og:type" content="website"/> */}
 
 
-        <title>Web 2</title>
+        {/* <title>Web 2</title>
         <meta name="title" content="Web 2" />
         <meta name="description" content="Home page in Website" />
         <meta property="og:type" content="website" />
@@ -33,7 +40,7 @@ const Web2 = () => {
         <meta property="twitter:description" content="Home page in Website" />
         <meta property="twitter:image" content="https://metatags.io/images/meta-tags.png" />
 
-      </Helmet>
+      </Helmet> */}
       <div>
         <Nav />
       </div>
