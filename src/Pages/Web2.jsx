@@ -17,6 +17,7 @@ const Web2 = () => {
                 <meta property="og:url" content="https://sample-website-seven.vercel.app/web2" />
                 <meta property="og:type" content="website"/> */}
 
+
         <title>Web 2</title>
         <meta name="title" content="Web 2" />
         <meta name="description" content="Home page in Website" />
