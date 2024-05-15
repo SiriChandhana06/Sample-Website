@@ -2,7 +2,7 @@ import React from 'react';
 import tch from '../Assets/web123.jpg';
 import tch1 from '../Assets/tech.png';
 import Nav from '../Components/Nav';
-// import { Helmet } from 'react-helmet';
+import { Helmet } from 'react-helmet';
 
 const Tech = () => {
   return (
@@ -18,6 +18,24 @@ const Tech = () => {
                 <meta property="og:url" content="https://sample-website-seven.vercel.app/tech" />
                 <meta property="og:type" content="website"/>
       </Helmet> */}
+
+      <Helmet>
+      <title>Technical</title>
+        <meta name="title" content="Technical" />
+        <meta name="description" content="This is the Technical page of my website." />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://sample-website-hello.vercel.app/tech" />
+        <meta property="og:title" content="Web 2" />
+        <meta property="og:description" content="This is the Technical page of my website." />
+        <meta property="og:image"
+          content="https://github.com/SiriChandhana06/Sample-Website/blob/master/src/images/Tech.png?raw=true" />
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:url" content="https://sample-website-hello.vercel.app/tech" />
+        <meta property="twitter:title" content="Web 2" />
+        <meta property="twitter:description" content="This is the Technical page of my website." />
+        <meta property="twitter:image" content="https://github.com/SiriChandhana06/Sample-Website/blob/master/src/images/Tech.png?raw=true" />
+
+      </Helmet>
     <div className='bg-gray-900'>
       <Nav/>
       <div className='grid grid-cols-2 px-10 py-20'> 

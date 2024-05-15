@@ -1,10 +1,29 @@
 import React from 'react';
 import w1 from '../Assets/web1.jpg';
 import Nav from '../Components/Nav';
+import { Helmet } from 'react-helmet';
 
 const Web1 = () => {
   return (
     <div>
+      <Helmet>
+      <title>Web 1</title>
+        <meta name="title" content="Web 3" />
+        <meta name="description" content="This is the Web 1.0 page of my website." />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://sample-website-hello.vercel.app/web1" />
+        <meta property="og:title" content="Web 1" />
+        <meta property="og:description" content="This is the Web 1.0 page of my website." />
+        <meta property="og:image"
+          content="https://github.com/SiriChandhana06/Sample-Website/blob/master/src/images/Web1.png?raw=true" />
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:url" content="https://sample-website-hello.vercel.app/web1" />
+        <meta property="twitter:title" content="Web 1" />
+        <meta property="twitter:description" content="This is the Web 1.0 page of my website." />
+        <meta property="twitter:image" content="https://github.com/SiriChandhana06/Sample-Website/blob/master/src/images/Web1.png?raw=true" />
+
+      </Helmet>
+
     <div className='bg-gray-900 h-screen '>
       <Nav/>
       <div className='grid grid-cols-2 px-10 py-20'> 

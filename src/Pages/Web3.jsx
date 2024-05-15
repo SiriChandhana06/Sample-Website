@@ -1,7 +1,7 @@
 import React from 'react';
 import w3 from '../Assets/web3.webp';
 import Nav from '../Components/Nav';
-// import { Helmet } from 'react-helmet';
+import { Helmet } from 'react-helmet';
 
 const Web3 = () => {
   return (
@@ -17,6 +17,24 @@ const Web3 = () => {
                 <meta property="og:url" content="https://sample-website-seven.vercel.app/web3" />
                 <meta property="og:type" content="website"/>
         </Helmet> */}
+
+<Helmet>
+      <title>Web 3</title>
+        <meta name="title" content="Web 3" />
+        <meta name="description" content="This is the Web 3.0 page of my website." />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://sample-website-hello.vercel.app/web3" />
+        <meta property="og:title" content="Web 3" />
+        <meta property="og:description" content="This is the Web 3.0 page of my website." />
+        <meta property="og:image"
+          content="https://github.com/SiriChandhana06/Sample-Website/blob/master/src/images/Web3.png?raw=true" />
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:url" content="https://sample-website-hello.vercel.app/web3" />
+        <meta property="twitter:title" content="Web 3" />
+        <meta property="twitter:description" content="This is the Web 3.0 page of my website." />
+        <meta property="twitter:image" content="https://github.com/SiriChandhana06/Sample-Website/blob/master/src/images/Web3.png?raw=true" />
+
+      </Helmet>
     <div className='bg-gray-900 h-screen '>
       <Nav/>
       <div className='grid grid-cols-2 px-10 py-20'> 
